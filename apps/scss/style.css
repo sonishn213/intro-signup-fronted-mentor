@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+html {
+  font-size: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  font-size: 1.75rem;
+}
+
+@media screen and (min-width: 700px) {
+  h1 {
+    font-size: 3.0625rem;
+  }
+}
+
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+.button {
+  border: none;
+  width: 100%;
+  padding: 20px 60px;
+  border-radius: 8px;
+  line-height: 1.5;
+  color: white;
+  font-size: 1rem;
+}
+
+.intro-section {
+  background-color: #ff7a7a;
+  background-image: url(../../images/bg-intro-mobile.png);
+}
+
+@media screen and (min-width: 700px) {
+  .intro-section {
+    background-image: url(../../images/bg-intro-desktop.png);
+  }
+}
+
+.intro {
+  width: 100%;
+  padding: 4.25rem 1.5rem;
+}
+
+@media screen and (min-width: 700px) {
+  .intro {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 7.5rem 1.5rem;
+  }
+}
+
+.intro__texts {
+  text-align: center;
+  color: white;
+  width: 100%;
+}
+
+@media screen and (min-width: 700px) {
+  .intro__texts {
+    width: 50%;
+    text-align: left;
+    padding-right: 1rem;
+  }
+}
+
+.intro__heading {
+  margin-bottom: 1.75rem;
+}
+
+@media screen and (min-width: 700px) {
+  .intro__heading {
+    margin-bottom: 1.87rem;
+    line-height: 1.2;
+  }
+}
+
+.intro__signup {
+  width: 100%;
+}
+
+@media screen and (min-width: 700px) {
+  .intro__signup {
+    width: 50%;
+  }
+}
+
+.intro__try-button {
+  background-color: #6055a5;
+  -webkit-box-shadow: 0px 8px rgba(62, 60, 73, 0.15);
+          box-shadow: 0px 8px rgba(62, 60, 73, 0.15);
+  margin-top: 64px;
+  margin-bottom: 1.5rem;
+}
+
+@media screen and (min-width: 700px) {
+  .intro__try-button {
+    margin-top: 0;
+  }
+}
+
+.intro__signupcard {
+  padding: 1.5rem;
+  background: white;
+  border-radius: 8px;
+  -webkit-box-shadow: 0px 8px rgba(62, 60, 73, 0.15);
+          box-shadow: 0px 8px rgba(62, 60, 73, 0.15);
+}
+
+.intro__signupcard form .icon-input:not(:first-child) {
+  margin-top: 1rem;
+}
+
+.intro__signupcard input {
+  font-size: 16px;
+  padding: 18px 24px;
+  width: 100%;
+  border-radius: 5px;
+  outline-color: #3e3c49;
+  border: 1px solid #b9b6d3;
+  font-weight: 700;
+  color: #3e3c49;
+  caret-color: #3e3c49;
+  border-radius: 6px;
+}
+
+.intro__signupcard form > input[type="submit"] {
+  color: white;
+  background: #38cc8c;
+  -webkit-box-shadow: inset 0px -4px rgba(62, 60, 73, 0.15);
+          box-shadow: inset 0px -4px rgba(62, 60, 73, 0.15);
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  margin-top: 1rem;
+}
+
+.intro__signupcard form > input[type="submit"]:hover {
+  opacity: 0.7;
+}
+
+.intro__terms {
+  font-size: 0.75rem;
+  color: #b9b6d3;
+  text-align: center;
+  padding: 0 0.5rem;
+  margin-top: 1rem;
+}
+
+.intro__terms > span {
+  color: #ff7a7a;
+  font-weight: 700;
+}
+
+.intro__warning {
+  font-size: 11px;
+  color: #ff7a7a;
+  margin-top: 0.5rem;
+  font-style: italic;
+  text-align: right;
+  font-weight: 500;
+}
+
+.intro input.intro__warnicon {
+  border: 2px solid #ff7a7a;
+}
+
+.intro .icon-input {
+  position: relative;
+  width: 100%;
+}
+
+.intro .icon-input .erricon {
+  display: inline;
+  position: absolute;
+  right: 0;
+  padding: 1rem;
+}
+
+.intro .icon-input .hide {
+  display: none !important;
+}
+/*# sourceMappingURL=style.css.map */

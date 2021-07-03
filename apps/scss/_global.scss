@@ -1,0 +1,35 @@
+html {
+  font-size: 100%;
+
+  box-sizing: border-box;
+}
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 1rem;
+  font-family: $font;
+}
+h1 {
+  font-size: 1.75rem;
+  @media screen and(min-width:700px) {
+    font-size: 3.0625rem;
+  }
+}
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+.button {
+  border: none;
+  width: 100%;
+  padding: 20px 60px;
+  border-radius: 8px;
+  line-height: 1.5;
+  color: white;
+  font-size: 1rem;
+}
